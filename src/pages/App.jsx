@@ -1,13 +1,15 @@
-import logo from "../assets/logo.svg";
 import "../styles/App.css";
 import Container from "../components/Container";
-
+import Navbar from "../components/Navbar";
 function App() {
   return (
     <Container>
-      <div>
-        <h1>Hello World!</h1>
-      </div>
+      <Navbar />
+      <div className="h-screen bg-biruMuda"></div>
+      <div
+        className="h-screen bg-bir
+      "
+      ></div>
     </Container>
   );
 }
