@@ -5,11 +5,19 @@ const Navbar = () => {
     <div className="px-32 bg-white h-20 flex items-center w-full fixed shadow-sm z-50">
       <div className="lg:grid grid-cols-2 w-full">
         <div className="flex gap-16 text-biru font-Inter text-base w-full">
-          <div>Logo</div>
+          <div>
+            <a href="/">Logo</a>
+          </div>
           <ul className="flex gap-7">
-            <li>Home</li>
-            <li>Feature</li>
-            <li>About Us</li>
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="/feature">Feature</a>
+            </li>
+            <li>
+              <a href="/about">About Us</a>
+            </li>
             <li>Contact</li>
           </ul>
         </div>
