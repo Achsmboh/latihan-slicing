@@ -153,7 +153,7 @@ function Feature() {
               </div>
             </div>
           </div>
-          <div>
+          <div className="flex justify-end items-center">
             <div className="w-[500px] h-[627px]">
               <img className="object-cover" src={image5} alt={image5} />
             </div>
@@ -254,7 +254,6 @@ function Feature() {
           </div>
         </div>
       </div>
-
       {/* Akhir The Is Closing */}
     </Container>
   );
